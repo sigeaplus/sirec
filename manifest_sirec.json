@@ -1,0 +1,56 @@
+{
+  "name": "SIREC — Portal do Representante",
+  "short_name": "SIREC",
+  "description": "Portal do Representante de Turma",
+  "start_url": "./representante_dashboard.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#7C3AED",
+  "theme_color": "#7C3AED",
+  "lang": "pt-BR",
+  "categories": [
+    "education",
+    "productivity"
+  ],
+  "icons": [
+    {
+      "src": "sirec_logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "sirec_logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "sirec_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "sirec_logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Minha Turma",
+      "short_name": "Minha Turma",
+      "url": "./representante_dashboard.html",
+      "icons": [
+        {
+          "src": "sirec_logo.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
